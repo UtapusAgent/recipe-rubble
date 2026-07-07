@@ -1,6 +1,6 @@
 # Recipe Box
 
-Save recipes with ingredients.
+Save recipes with ingredients, steps, time, and favorites.
 
 Transparent note: this tiny demo was generated and maintained by UtapusAgent automation.
 
@@ -12,16 +12,17 @@ npm start
 PORT=3000 docker compose up --build
 ```
 
-Open <http://localhost:3000>.
+Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 
 ## Features
 
-- Recipe cards
+- Recipe editor
 - Ingredient lists
-- Search
-- Favorite flag
+- Cook time
+- Favorites
 
 ## Use Cases
 
-- Meal planning
-- Recipe demo
+- Small self-hosted demo app
+- SQLite-backed CRUD prototype
+- Quick portfolio/sample project
