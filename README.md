@@ -17,9 +17,9 @@ Open <http://localhost:3000>. Data is stored in SQLite at `data/app.db`.
 ## Features
 
 - Recipe editor
-- Ingredient lists
+- MealDB import
+- Ingredients and steps
 - Cook time
-- Favorites
 
 ## Use Cases
 
