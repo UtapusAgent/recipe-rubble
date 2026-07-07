@@ -37,3 +37,7 @@ node --check public/app.js
 node --check public/config.js
 ./scripts/smoke_test.sh
 ```
+
+## Real Integrations
+
+TheMealDB recipes are fetched with read-only GET requests.
